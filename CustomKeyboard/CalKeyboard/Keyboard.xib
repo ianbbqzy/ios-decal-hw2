@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
@@ -22,6 +22,62 @@
                     </constraints>
                     <state key="normal" title="N"/>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9l3-ZK-mdO">
+                    <rect key="frame" x="57" y="162" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="4By-ND-9wP"/>
+                    </constraints>
+                    <state key="normal" title="Return"/>
+                    <connections>
+                        <action selector="returnButton:" destination="-1" eventType="touchUpInside" id="dec-7l-djP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaN-Pp-tVr">
+                    <rect key="frame" x="117" y="162" width="45" height="30"/>
+                    <state key="normal" title="Delete"/>
+                    <connections>
+                        <action selector="deleteButton:" destination="-1" eventType="touchUpInside" id="jqq-SD-wPA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0u-L4-DI4">
+                    <rect key="frame" x="176" y="162" width="54" height="30"/>
+                    <state key="normal" title="(-‿‿-)"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yem-EB-xZV">
+                    <rect key="frame" x="238" y="162" width="50" height="30"/>
+                    <state key="normal" title="(´∀｀*)"/>
+                    <connections>
+                        <action selector="test1Button:" destination="-1" eventType="touchUpInside" id="HD5-V3-nrp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqr-JM-EXh">
+                    <rect key="frame" x="309" y="162" width="43" height="30"/>
+                    <state key="normal" title="(*^ω^)"/>
+                    <connections>
+                        <action selector="test2Button:" destination="-1" eventType="touchUpInside" id="c8l-5n-eU7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tP-ZX-kXF">
+                    <rect key="frame" x="18" y="118" width="150" height="30"/>
+                    <state key="normal" title="☆*:.｡.o(≧▽≦)o.｡.:*☆"/>
+                    <connections>
+                        <action selector="test4Button:" destination="-1" eventType="touchUpInside" id="Wsw-Li-OFu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMZ-At-qBY">
+                    <rect key="frame" x="190" y="118" width="61" height="30"/>
+                    <state key="normal" title="(*≧ω≦*)"/>
+                    <connections>
+                        <action selector="test5Button:" destination="-1" eventType="touchUpInside" id="p8L-qI-jQe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZo-pV-DSg">
+                    <rect key="frame" x="259" y="118" width="94" height="30"/>
+                    <state key="normal" title="RandomEmoji"/>
+                    <connections>
+                        <action selector="test6Button:" destination="-1" eventType="touchUpInside" id="bGJ-ZQ-2R4"/>
+                    </connections>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LUD-YX-JVD"/>
@@ -29,7 +85,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="605.5" y="542"/>
+            <point key="canvasLocation" x="185.5" y="276"/>
         </view>
     </objects>
 </document>
